@@ -112,6 +112,14 @@ h1{
      margin-bottom:1.15rem;
      font-size:0.9rem;
  }
+
+ >p:hover{
+    color:rgb(218, 142, 2);
+}
+
+>p:active{
+    font-weight: 700;
+}
  > img{
         height:100%;
     }

@@ -194,6 +194,14 @@ body {
   font-size: 0.9rem;
 }
 
+.items > section > p:hover {
+  color: #da8e02;
+}
+
+.items > section > p:active {
+  font-weight: 700;
+}
+
 .items > section > img {
   height: 100%;
 }
