@@ -87,6 +87,8 @@ body {
   border-radius: 20px;
   width: 330px;
   height: 540px;
+  -webkit-box-shadow: 0 15px 12px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 15px 12px rgba(0, 0, 0, 0.4);
 }
 
 .container h1 {
