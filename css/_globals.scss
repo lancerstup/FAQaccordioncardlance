@@ -1,0 +1,65 @@
+html{
+    font-size:100%;
+    box-sizing: border-box;
+    min-height:100vh;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-image:linear-gradient($Softviolet,$Softblue);
+    line-height: 1.3;
+    font-size:0.75rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+
+
+.flex{
+    display:flex;
+
+    &-j-c{
+        justify-content: center;
+    }
+
+    &-j-sb{
+        justify-content: space-between;
+    }
+
+    &-a-c{
+        align-items: center;
+    }
+}
+
+.hide-mobile{
+    @include breakpoint-up(large){
+        display:none;
+    }
+}
+
+.hide-desktop{
+    @include breakpoint-down(medium){
+        display:none;
+    }
+}
+
+.title-bold{
+    font-weight: 700;
+}
+
+
+
+.has-fadein{
+    max-height:999px;
+    transition: all 450ms ease-in-out ;
+}
+
+.has-fade{
+    max-height:0;
+    transition: all 450ms ease-in-out;
+}
+
